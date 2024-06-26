@@ -1,0 +1,235 @@
+{
+  "navbar": {
+    "title": "Akdeniz University Internship System",
+    "themes": {
+      "title": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "selectLabel": "Language",
+    "turkish": "Turkish",
+    "english": "English"
+  },
+  "page": {
+    "login": {
+      "title": "Akdeniz University Internship System",
+      "loginTitle": "Login to system",
+      "loginDesc": "You can log in to the system with your institutional email address and password.",
+      "forgotPassword": "Forgot Password?",
+      "buttonLabel": "Login"
+    },
+    "main": {
+      "user": {
+        "logoutButtonLabel": "Sign Out",
+        "toast": {
+          "title": "You must be logged in to see this page!",
+          "desc": "Navigating to login page..."
+        }
+      },
+      "internships": {
+        "internshipCard": {
+          "company": "Company",
+          "employee": "Supervisor",
+          "progress": "Progress",
+          "startDate": "Start date",
+          "endDate": "End date",
+          "status": {
+            "PendingApprovalFromInternshipCommittee": "Pending Approval From Internship Committee",
+            "AcceptedByInternshipCommittee": "Accepted By Internship Committee",
+            "PendingApprovalFromCompany": "Pending Approval From Company",
+            "AcceptedByCompany": "Accepted By Company",
+            "InternshipStarted": "Internship Started",
+            "DeclinedFromInternshipCommitte": "Declined From Internship Committe",
+            "DeclinedFromCompany": "Declined From Company"
+          }
+        },
+        "notFound": "No internship found",
+        "error": {
+          "title": "There was a problem!",
+          "desc": "Something went wrong, please try again."
+        }
+      },
+      "companies": {
+        "dropdownLabel": "Actions",
+        "copyCompanyId": "Copy id",
+        "copyCompanyAddress": "Copy address",
+        "viewCompany": "View",
+        "editCompany": "Edit",
+        "dialogDesc": "Edit company details",
+        "deleteCompany": "Delete",
+        "alertTitle": "Are you absolutely sure?",
+        "alertDesc": "This action cannot be undone. This will permanently delete this company and remove the data from our servers.",
+        "alertCancel": "Cancel",
+        "alertDelete": "Delete",
+        "toast": {
+          "delete": {
+            "success": "successfully deleted!",
+            "error": {
+              "title": "There was a problem!",
+              "desc": "Something went wrong, please try again."
+            }
+          }
+        }
+      },
+      "employees": {
+        "dropdownLabel": "Actions",
+        "copyEmployeeId": "Copy id",
+        "viewEmployee": "View",
+        "editEmployee": "Edit",
+        "dialogDesc": "Edit supervisor details",
+        "deleteEmployee": "Delete",
+        "alertTitle": "Are you absolutely sure?",
+        "alertDesc": "This action cannot be undone. This will permanently delete this company and remove the data from our servers.",
+        "alertCancel": "Cancel",
+        "alertDelete": "Delete"
+      }
+    }
+  },
+  "addInternship": {
+    "title": "Make internship application",
+    "desc": "Fill the necessary fields for your internship",
+    "fields": {
+      "companyLabel": "Company",
+      "companyPlaceholder": "Search company...",
+      "companyNotFound": "Company not found",
+      "employerLabel": "Employer",
+      "employerPlaceholder": "Search employer...",
+      "employeeNotFound": "Supervisor not found",
+      "startDateLabel": "First day of internship",
+      "startDatePlaceholder": "Pick a date",
+      "endDateLabel": "Last day of internship",
+      "endDatePlaceholder": "Pick a date",
+      "totalDaysLabel": "Total days",
+      "totalDaysPlaceholder": "Number of days you will work",
+      "insuranceTypeLabel": "Insurance type",
+      "insuranceTypeSchool": "School",
+      "insuranceTypeCompany": "Company",
+      "dialogClose": "Close",
+      "dialogSave": "Save"
+    },
+    "toast": {
+      "internship": {
+        "error": {
+          "title": "There was a problem!",
+          "desc": "Something went wrong, please try again."
+        },
+        "success": {
+          "title": "Created internship successfully!",
+          "desc": "Waiting for your internship to be accepted by internship comitee."
+        }
+      },
+      "company": {
+        "error": {
+          "title": "There was a problem!",
+          "desc": "Could not fetch companies."
+        }
+      },
+      "employee": {
+        "error": {
+          "title": "There was a problem!",
+          "desc": "Could not fetch supervisors."
+        }
+      }
+    }
+  },
+  "registerCompany": {
+    "dialogTitle": "Add Company",
+    "dialogDesc": "Enter company informations here.",
+    "fields": {
+      "name": "Name/Title",
+      "namePlaceholder": "CsArt ARGE",
+      "serviceArea": "Production/Service Area",
+      "serviceAreaPlaceholder": "Software",
+      "email": "E-mail Address",
+      "emailPlaceholder": "abc@mail.com",
+      "website": "Web Address",
+      "websitePlaceholder": "https://abc.com",
+      "phoneNumber": "Phone Number",
+      "phoneNumberPlaceholder": "312 000 00 00",
+      "taxNumber": "Tax Number",
+      "taxNumberPlaceholder": "312 000 00 00",
+      "address": "Address",
+      "addressPlaceholder": "Pınarbaşı Mah. Dumlupınar Bulvarı 07070 Kampüs Konyaaltı/Antalya/TÜRKİYE",
+      "dialogClose": "Cancel",
+      "dialogSave": "Save",
+      "toast": {
+        "error": {
+          "title": "There was a problem!",
+          "desc": "Something went wrong, please try again."
+        },
+        "success": {
+          "title": "Created company successfully!"
+        }
+      }
+    }
+  },
+  "registerEmployee": {
+    "dialogTitle": "Add Supervisor",
+    "dialogDesc": "Enter Supervisor Information",
+    "fields": {
+      "firstName": "First name",
+      "firstNamePlaceholder": "John",
+      "lastName": "Last name",
+      "lastNamePlaceholder": "Doe",
+      "title": "Title",
+      "titlePlaceholder": "General manager",
+      "email": "E-mail Address",
+      "emailPlaceholder": "abc@mail.com",
+      "dialogClose": "Cancel",
+      "dialogSave": "Save",
+      "toast": {
+        "error": {
+          "title": "There was a problem!",
+          "desc": "Something went wrong, please try again."
+        },
+        "success": {
+          "title": "Created Supervisor successfully!"
+        }
+      }
+    }
+  },
+  "internship": {
+    "tabs": {
+      "report": "Report",
+      "tally": "Tally"
+    },
+    "report": {
+      "onDropRejected": {
+        "title": "Please choose a PDF file.",
+        "description": "is not supported."
+      },
+      "uploading": "Uploading...",
+      "dropFile": "Drop file to upload",
+      "clickToUpload": "Click to upload or drag and drop",
+      "supportedTypes": "PDF",
+      "uploadSuccessfull": "Report uploaded successfully",
+      "uploadReport": "Drag and drop a .pdf file",
+      "reportLabel": "Internship report",
+      "originalityReportLabel": "Originality report"
+    }
+  },
+  "approvePageEmployee": {
+    "title": "INTERNSHIP INFORMATION",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "tcKimlik": "Tc Identification Number",
+    "birthyear": "Birth Year",
+    "studentEmail": "Student Email",
+    "companyName": "Company Name",
+    "employeeName": "Supervisor Name",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "accept": "Accept",
+    "decline": "Decline",
+    "response": "We have your response"
+  },
+  "fillUserInformation": {
+    "title": "Complete your profile",
+    "description": "Fill the information needed to verify your identity.",
+    "fields": {
+      "tcKimlik": "Tc Identification number",
+      "birthyear": "Birthyear"
+    }
+  }
+}

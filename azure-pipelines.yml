@@ -1,0 +1,15 @@
+# This file was used as CI/CD pipeline for deploying the frontend to Vercel
+# trigger:
+#   - main
+
+# pool:
+#   vmImage: ubuntu-latest
+
+# steps:
+#   - task: vercel-deployment-task@1
+#     inputs:
+#       vercelProjectId: "<project-id-on-vercel>"
+#       vercelOrgId: "<organization-id-on-vercel>"
+#       vercelToken: $(VERCEL_TOKEN)
+#       production: true
+#       vercelCWD: $(System.DefaultWorkingDirectory)/frontend

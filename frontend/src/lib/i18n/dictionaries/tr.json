@@ -1,0 +1,235 @@
+{
+  "navbar": {
+    "title": "Akdeniz Üniversitesi Staj Sistemi",
+    "themes": {
+      "title": "Tema",
+      "light": "Açık",
+      "dark": "Koyu",
+      "system": "Sistem"
+    },
+    "selectLabel": "Dil",
+    "turkish": "Türkçe",
+    "english": "İngilizce"
+  },
+  "page": {
+    "login": {
+      "title": "Akdeniz Üniversitesi Staj Sistemi",
+      "loginTitle": "Sisteme Giriş",
+      "loginDesc": "Kurumsal e-posta adresiniz ve parolanız ile sisteme giriş yapabilirsiniz.",
+      "forgotPassword": "Şifreni mi unuttun?",
+      "buttonLabel": "Giriş Yap"
+    },
+    "main": {
+      "user": {
+        "logoutButtonLabel": "Çıkış Yap",
+        "toast": {
+          "title": "Bu sayfayı görebilmek için giriş yapmalısın!",
+          "desc": "Giriş sayfasına yönlendiriliyorsun..."
+        }
+      },
+      "internships": {
+        "internshipCard": {
+          "company": "Şirket",
+          "employee": "Staj Sorumlusu",
+          "progress": "İlerleme",
+          "startDate": "Başlangıç günü",
+          "endDate": "Bitiş günü",
+          "status": {
+            "PendingApprovalFromInternshipCommittee": "Staj Komitesi tarafından onay bekliyor",
+            "AcceptedByInternshipCommittee": "Staj Komitesi tarafından kabul edildi",
+            "PendingApprovalFromCompany": "Şirket tarafından onay bekliyor",
+            "AcceptedByCompany": "Şirket tarafından onaylandı",
+            "InternshipStarted": "Staj Başlamıştır",
+            "DeclinedFromInternshipCommitte": "Staj Komitesi tarafından reddedildi",
+            "DeclinedFromCompany": "Şirket tarafından reddedildi"
+          }
+        },
+        "notFound": "Staj bulunamadı",
+        "error": {
+          "title": "Bir sorun yaşadık!",
+          "desc": "Bir şeyler ters gitti, lütfen yeniden deneyin."
+        }
+      },
+      "companies": {
+        "dropdownLabel": "Eylemler",
+        "copyCompanyId": "Id'yi kopyala",
+        "copyCompanyAddress": "Adresi kopyala",
+        "viewCompany": "İncele",
+        "editCompany": "Düzenle",
+        "dialogDesc": "Şirket bilgilerini düzenleyin",
+        "deleteCompany": "Sil",
+        "alertTitle": "Silmek istediğinize emin misin?",
+        "alertDesc": "Bu işlem geri alınamaz. Şirket kalıcı olarak silinir!",
+        "alertCancel": "İptal",
+        "alertDelete": "Sil",
+        "toast": {
+          "delete": {
+            "success": "başarıyla silindi!",
+            "error": {
+              "title": "Bir sorun yaşadık!",
+              "desc": "Bir şeyler ters gitti, lütfen yeniden deneyin."
+            }
+          }
+        }
+      },
+      "employees": {
+        "dropdownLabel": "Eylemler",
+        "copyEmployeeId": "Id'yi kopyala",
+        "viewEmployee": "İncele",
+        "editEmployee": "Düzenle",
+        "dialogDesc": "Staj Sorumlusu bilgilerini düzenleyin",
+        "deleteEmployee": "Sil",
+        "alertTitle": "Silmek istediğinize emin misin?",
+        "alertDesc": "Bu işlem geri alınamaz. Staj Sorumlusu kalıcı olarak silinir!",
+        "alertCancel": "İptal",
+        "alertDelete": "Sil"
+      }
+    }
+  },
+  "addInternship": {
+    "title": "Staj başvurusu yap",
+    "desc": "Stajınızla ilgili gerekli alanları doldurunuz.",
+    "fields": {
+      "companyLabel": "Şirket",
+      "companyPlaceholder": "Şirket ara...",
+      "companyNotFound": "Şirket bulunamadı",
+      "employerLabel": "Staj Sorumlusu",
+      "employerPlaceholder": "Staj Sorumlusu ara...",
+      "employeeNotFound": "Staj Sorumlusu bulunamadı",
+      "startDateLabel": "Stajın ilk günü",
+      "startDatePlaceholder": "Bir gün seçiniz",
+      "endDateLabel": "Stajın son günü",
+      "endDatePlaceholder": "Bir gün seçiniz",
+      "totalDaysLabel": "Staj süresi (gün)",
+      "totalDaysPlaceholder": "Çalışacağınız gün sayısı",
+      "insuranceTypeLabel": "Sigorta",
+      "insuranceTypeSchool": "Okul",
+      "insuranceTypeCompany": "Şirket",
+      "dialogClose": "Kapat",
+      "dialogSave": "Kaydet"
+    },
+    "toast": {
+      "internship": {
+        "error": {
+          "title": "Bir sorun yaşadık!",
+          "desc": "Bir şeyler ters gitti, lütfen yeniden deneyin."
+        },
+        "success": {
+          "title": "Staj başarıyla oluşturuldu!",
+          "desc": "Staj komisyonu tarafından onaylanması bekleniyor."
+        }
+      },
+      "company": {
+        "error": {
+          "title": "Bir sorun yaşadık!",
+          "desc": "Şirketler listelenemedi."
+        }
+      },
+      "employee": {
+        "error": {
+          "title": "Bir sorun yaşadık!",
+          "desc": "Staj Sorumluları listelenemedi."
+        }
+      }
+    }
+  },
+  "registerCompany": {
+    "dialogTitle": "Şirket Ekle",
+    "dialogDesc": "Staj yapılacak yerin bilgilerini giriniz.",
+    "fields": {
+      "name": "Adı/Ünvanı",
+      "namePlaceholder": "CsArt ARGE",
+      "serviceArea": "Üretim/Hizmet Alanı",
+      "serviceAreaPlaceholder": "Yazılım",
+      "email": "E-posta Adresi",
+      "emailPlaceholder": "abc@mail.com",
+      "website": "Web Adresi",
+      "websitePlaceholder": "https://abc.com",
+      "phoneNumber": "Telefon No",
+      "phoneNumberPlaceholder": "312 000 00 00",
+      "taxNumber": "Vergi No",
+      "taxNumberPlaceholder": "312 000 00 00",
+      "address": "Adresi",
+      "addressPlaceholder": "Pınarbaşı Mah. Dumlupınar Bulvarı 07070 Kampüs Konyaaltı/Antalya/TÜRKİYE",
+      "dialogClose": "Geri",
+      "dialogSave": "Kaydet",
+      "toast": {
+        "error": {
+          "title": "Bir sorun yaşadık!",
+          "desc": "Bir şeyler ters gitti, lütfen yeniden deneyin."
+        },
+        "success": {
+          "title": "Şirket başarıyla oluşturuldu!"
+        }
+      }
+    }
+  },
+  "registerEmployee": {
+    "dialogTitle": "Staj Sorumlusu ekle",
+    "dialogDesc": "Staj Sorumlusu bilgilerini giriniz.",
+    "fields": {
+      "firstName": "Adı",
+      "firstNamePlaceholder": "Staj Sorumlusunun ismi",
+      "lastName": "Soyadı",
+      "lastNamePlaceholder": "Staj Sorumlusunun soyadı",
+      "title": "Ünvanı",
+      "titlePlaceholder": "Staj Sorumlusunun ünvanı",
+      "email": "E-posta Adresi",
+      "emailPlaceholder": "abc@mail.com",
+      "dialogClose": "Geri",
+      "dialogSave": "Kaydet",
+      "toast": {
+        "error": {
+          "title": "Bir sorun yaşadık!",
+          "desc": "Bir şeyler ters gitti, lütfen yeniden deneyin."
+        },
+        "success": {
+          "title": "Staj Sorumlusu başarıyla oluşturuldu!"
+        }
+      }
+    }
+  },
+  "internship": {
+    "tabs": {
+      "report": "Rapor",
+      "tally": "Puantaj"
+    },
+    "report": {
+      "onDropRejected": {
+        "title": "Lütfen PDF dosyası seçiniz.",
+        "description": "desteklenmiyor."
+      },
+      "uploading": "Yükleniyor...",
+      "dropFile": "Yüklemek için dosyayı bırak",
+      "clickToUpload": "Yüklemek için tıkla veya sürükle bırak",
+      "supportedTypes": "PDF",
+      "uploadSuccessfull": "Rapor sisteme başarıyla yüklendi",
+      "uploadReport": ".pdf uzantılı dosyayı sürükle bırak",
+      "reportLabel": "Staj raporu",
+      "originalityReportLabel": "Orijinallik raporu"
+    }
+  },
+  "approvePageEmployee": {
+    "title": "STAJ BİLGİLERİ",
+    "firstName": "İsim",
+    "lastName": "Soyisim",
+    "tcKimlik": "Tc Kimlik No",
+    "birthyear": "Doğum Yılı",
+    "studentEmail": "Öğrenci Mail",
+    "companyName": "Şirket İsmi",
+    "employeeName": "Staj Sorumlusu İsmi",
+    "startDate": "Başlangıç Tarihi",
+    "endDate": "Bitiş Tarihi",
+    "accept": "Kabul Et",
+    "decline": "Reddet",
+    "response": "Yanıtınız aldık"
+  },
+  "fillUserInformation": {
+    "title": "Profilinizi tamamlayın",
+    "description": "Kimliğinizi doğrulamamız için gerekli olan bilgileri giriniz.",
+    "fields": {
+      "tcKimlik": "Tc kimlik no",
+      "birthyear": "Doğum yılınız"
+    }
+  }
+}
