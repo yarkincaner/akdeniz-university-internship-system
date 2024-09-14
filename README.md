@@ -391,6 +391,34 @@ Every feature runs with the same logic which enhances code readability and make 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<details>
+  <summary>Screenshots</summary>
+  <div align='center'>
+	  <img src='documents/screenshots/main-page-empty.png' alt='Empty main page'>
+    <em>Empty main page</em>
+	  <img src='documents/screenshots/main-page.png'>
+    <em>Main page with internships</em>
+	  <img src='documents/screenshots/add-internship-dialog-empty.jpg'>
+    <em>Add internship dialog</em>
+	  <img src='documents/screenshots/add-company.jpg'>
+    <em>Add company dialog</em>
+	  <img src='documents/screenshots/add-employee.jpg'>
+    <em>Add employee dialog</em>
+	  <img src='documents/screenshots/navbar-menu-languages-en.jpg'>
+    <em>Navbar - languages</em>
+	  <img src='documents/screenshots/navbar-menu-themes-dark.jpg'>
+    <em>Navbar - themes</em>
+	  <img src='documents/screenshots/internships-page.png'>
+    <em>Admin - Internships</em>
+	  <img src='documents/screenshots/companies-page.jpg'>
+    <em>Admin - Companies</em>
+	  <img src='documents/screenshots/employees-page.png'>
+    <em>Admin - Employees</em>
+  </div>
+
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+</details>
+
 ## Acknowledgements
 I would like give my special thanks to [Taha Yiğit Alkan](https://www.linkedin.com/in/taha-yigit-alkan), [Mustafa Esen](https://github.com/Mesen1100), [Özlem Şençoruh](https://github.com/ozzlems), and [Alper Özcan](https://www.linkedin.com/in/alper-ozcan-66955044) as I would not be able to complete this project without their help.
 
